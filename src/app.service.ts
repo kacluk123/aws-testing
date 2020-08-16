@@ -1,5 +1,7 @@
 import { Injectable } from '@nestjs/common';
+
 require('dotenv').config();
+
 const message = process.env.MESSAGE;
 
 @Injectable()
